@@ -16,7 +16,7 @@ const fakeFetchData = <T>() => {
   },
 })
 @Injectable()
-export class DataCollectionState {
+export class SdsState {
   @Selector()
   static all(state: DataCollectionStateModel): unknown[] {
     return state.data;
